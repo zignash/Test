@@ -17,7 +17,6 @@
 		<string>Default-Portrait@2x~ipad.png</string>
 		<string>57x57.png</string>
 		<string>114x114.png</string>
-		<string>72x72.png</string>
 	</array>
 	<key>CFBundleIcons</key>
 	<dict>
@@ -32,12 +31,11 @@
 				<string>Default-Portrait@2x~ipad.png</string>
 				<string>57x57.png</string>
 				<string>114x114.png</string>
-				<string>72x72.png</string>
 			</array>
 		</dict>
 	</dict>
 	<key>CFBundleIdentifier</key>
-	<string>com.alanpacecompany.bailbond</string>
+	<string>com.techsolution.TTorchApp</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
