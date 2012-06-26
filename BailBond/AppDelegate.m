@@ -4,7 +4,9 @@
 //
 //  Created by  on 28/05/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
+
+
+//Techgene 
 
 #import "AppDelegate.h"
 
@@ -14,6 +16,7 @@
 
 @synthesize window = _window;
 @synthesize viewController = _viewController;
+@synthesize objNavigation;
 
 - (void)dealloc
 {
@@ -26,12 +29,14 @@
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
+    
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
         self.viewController = [[[ViewController alloc] initWithNibName:@"ViewController_iPhone" bundle:nil] autorelease];
     } else {
         self.viewController = [[[ViewController alloc] initWithNibName:@"ViewController_iPad" bundle:nil] autorelease];
     }
-    self.window.rootViewController = self.viewController;
+    objNavigation = [[UINavigationController alloc]initWithRootViewController:self.viewController];
+    self.window.rootViewController = objNavigation;
     [self.window makeKeyAndVisible];
     return YES;
 }

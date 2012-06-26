@@ -7,7 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MessageUI/MessageUI.h>
+#import <MessageUI/MFMailComposeViewController.h>
 
-@interface PreviewViewController : UIViewController
+@interface PreviewViewController : UIViewController<MFMailComposeViewControllerDelegate>{
+    IBOutlet UIImageView *myImage;
+    NSData *data;
+    CGSize pageSize;
+}
 
+@property (strong, nonatomic) NSData *previewData;
+
+-(IBAction)Convert:(id)sender;
+-(void)displayComposerSheet;
+-(void)launchMailAppOnDevice;
 @end

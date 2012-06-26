@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1339798215920506004917B0 /* 72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = 1339798115920506004917B0 /* 72x72.png */; };
 		15424D9A15737CD800C9B086 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15424D9915737CD800C9B086 /* UIKit.framework */; };
 		15424D9C15737CD800C9B086 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15424D9B15737CD800C9B086 /* Foundation.framework */; };
 		15424D9E15737CD800C9B086 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15424D9D15737CD800C9B086 /* CoreGraphics.framework */; };
@@ -16,23 +17,87 @@
 		15424DAD15737CD800C9B086 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15424DAC15737CD800C9B086 /* ViewController.m */; };
 		15424DB015737CD800C9B086 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15424DAE15737CD800C9B086 /* ViewController_iPhone.xib */; };
 		15424DB315737CD800C9B086 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15424DB115737CD800C9B086 /* ViewController_iPad.xib */; };
+		15424DC515737CFE00C9B086 /* bg_main.png in Resources */ = {isa = PBXBuildFile; fileRef = 15424DBE15737CFE00C9B086 /* bg_main.png */; };
+		15424DC615737CFE00C9B086 /* bg_screen1.png in Resources */ = {isa = PBXBuildFile; fileRef = 15424DBF15737CFE00C9B086 /* bg_screen1.png */; };
+		15424DC715737CFE00C9B086 /* bottombar_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 15424DC015737CFE00C9B086 /* bottombar_img.png */; };
+		15424DC815737CFE00C9B086 /* capturenewdocument_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 15424DC115737CFE00C9B086 /* capturenewdocument_btn.png */; };
+		15424DCA15737CFE00C9B086 /* topbar_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 15424DC315737CFE00C9B086 /* topbar_img.png */; };
+		15424DCB15737CFE00C9B086 /* uploadfromgallery_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 15424DC415737CFE00C9B086 /* uploadfromgallery_btn.png */; };
+		15424DCF15737D5300C9B086 /* PreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15424DCD15737D5300C9B086 /* PreviewViewController.m */; };
+		15424DD015737D5300C9B086 /* PreviewViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15424DCE15737D5300C9B086 /* PreviewViewController_iPad.xib */; };
+		15424DD215737D7400C9B086 /* PreviewViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15424DD115737D7400C9B086 /* PreviewViewController_iPhone.xib */; };
+		15424DE315738FC400C9B086 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15424DE215738FC400C9B086 /* MessageUI.framework */; };
+		1552E5B3157A12B100FE41CB /* 57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 1552E5B2157A12B100FE41CB /* 57x57.png */; };
+		1552E5B5157A12B400FE41CB /* 114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 1552E5B4157A12B400FE41CB /* 114x114.png */; };
+		1552E5B8157A15AE00FE41CB /* convert_btn~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1552E5B6157A15AE00FE41CB /* convert_btn~ipad.png */; };
+		1552E5B9157A15AE00FE41CB /* convert_btn@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1552E5B7157A15AE00FE41CB /* convert_btn@2x~ipad.png */; };
+		1552E5BB157A16B500FE41CB /* converttopdf_btn~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 1552E5BA157A16B500FE41CB /* converttopdf_btn~iphone.png */; };
+		15AB1A291577539800E4B7B2 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 15AB1A281577539800E4B7B2 /* Default-Portrait~ipad.png */; };
+		15AB1A2B1577539900E4B7B2 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 15AB1A2A1577539900E4B7B2 /* Default-Portrait@2x~ipad.png */; };
+		15AB1A2D157753A700E4B7B2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 15AB1A2C157753A700E4B7B2 /* Default.png */; };
+		15D1626A1574A8DE00937CE8 /* bg_screen1~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 15D162691574A8DE00937CE8 /* bg_screen1~ipad.png */; };
+		15D1626C1574A8E300937CE8 /* bg_screen1@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 15D1626B1574A8E300937CE8 /* bg_screen1@2x~ipad.png */; };
+		15D1626E1574A8E700937CE8 /* bg_main@~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 15D1626D1574A8E700937CE8 /* bg_main@~ipad.png */; };
+		15D162701574A8EA00937CE8 /* bg_main@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 15D1626F1574A8EA00937CE8 /* bg_main@2x~ipad.png */; };
+		15D162771574A8F800937CE8 /* bottombar_img@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 15D162711574A8F800937CE8 /* bottombar_img@2x~ipad.png */; };
+		15D162781574A8F800937CE8 /* bottombar_img~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 15D162721574A8F800937CE8 /* bottombar_img~ipad.png */; };
+		15D162791574A8F800937CE8 /* capturenewdocument_btn@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 15D162731574A8F800937CE8 /* capturenewdocument_btn@2x~ipad.png */; };
+		15D1627E1574A8FB00937CE8 /* capturenewdocument_btn~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 15D1627D1574A8FB00937CE8 /* capturenewdocument_btn~ipad.png */; };
+		15D162851574A9A200937CE8 /* topbar_img@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 15D162811574A9A100937CE8 /* topbar_img@2x~ipad.png */; };
+		15D162861574A9A200937CE8 /* topbar_img~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 15D162821574A9A100937CE8 /* topbar_img~ipad.png */; };
+		15D162871574A9A200937CE8 /* uploadfromgallery_btn@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 15D162831574A9A200937CE8 /* uploadfromgallery_btn@2x~ipad.png */; };
+		15D162881574A9A200937CE8 /* uploadfromgallery_btn~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 15D162841574A9A200937CE8 /* uploadfromgallery_btn~ipad.png */; };
+		15D163991574FA2A00937CE8 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15D163981574FA2A00937CE8 /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		15424D9515737CD800C9B086 /* BailBond.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BailBond.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1339798115920506004917B0 /* 72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 72x72.png; sourceTree = "<group>"; };
+		15424D9515737CD800C9B086 /* A Better Bail Bond.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "A Better Bail Bond.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		15424D9915737CD800C9B086 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		15424D9B15737CD800C9B086 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		15424D9D15737CD800C9B086 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		15424DA115737CD800C9B086 /* BailBond-Info.plist */ = {isa = PBXFileReference; path = "BailBond-Info.plist"; sourceTree = "<group>"; };
+		15424DA115737CD800C9B086 /* A Better Bail Bond-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "A Better Bail Bond-Info.plist"; sourceTree = "<group>"; };
 		15424DA315737CD800C9B086 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		15424DA515737CD800C9B086 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		15424DA715737CD800C9B086 /* BailBond-Prefix.pch */ = {isa = PBXFileReference; path = "BailBond-Prefix.pch"; sourceTree = "<group>"; };
-		15424DA815737CD800C9B086 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		15424DA715737CD800C9B086 /* A Better Bail Bond-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "A Better Bail Bond-Prefix.pch"; sourceTree = "<group>"; };
+		15424DA815737CD800C9B086 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		15424DA915737CD800C9B086 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		15424DAB15737CD800C9B086 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		15424DAB15737CD800C9B086 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		15424DAC15737CD800C9B086 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		15424DAF15737CD800C9B086 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		15424DB215737CD800C9B086 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		15424DBE15737CFE00C9B086 /* bg_main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_main.png; sourceTree = "<group>"; };
+		15424DBF15737CFE00C9B086 /* bg_screen1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_screen1.png; sourceTree = "<group>"; };
+		15424DC015737CFE00C9B086 /* bottombar_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottombar_img.png; sourceTree = "<group>"; };
+		15424DC115737CFE00C9B086 /* capturenewdocument_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = capturenewdocument_btn.png; sourceTree = "<group>"; };
+		15424DC315737CFE00C9B086 /* topbar_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topbar_img.png; sourceTree = "<group>"; };
+		15424DC415737CFE00C9B086 /* uploadfromgallery_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uploadfromgallery_btn.png; sourceTree = "<group>"; };
+		15424DCC15737D5300C9B086 /* PreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreviewViewController.h; sourceTree = "<group>"; };
+		15424DCD15737D5300C9B086 /* PreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreviewViewController.m; sourceTree = "<group>"; };
+		15424DCE15737D5300C9B086 /* PreviewViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreviewViewController_iPad.xib; sourceTree = "<group>"; };
+		15424DD115737D7400C9B086 /* PreviewViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreviewViewController_iPhone.xib; sourceTree = "<group>"; };
+		15424DE215738FC400C9B086 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		1552E5B2157A12B100FE41CB /* 57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 57x57.png; sourceTree = "<group>"; };
+		1552E5B4157A12B400FE41CB /* 114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 114x114.png; sourceTree = "<group>"; };
+		1552E5B6157A15AE00FE41CB /* convert_btn~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "convert_btn~ipad.png"; sourceTree = "<group>"; };
+		1552E5B7157A15AE00FE41CB /* convert_btn@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "convert_btn@2x~ipad.png"; sourceTree = "<group>"; };
+		1552E5BA157A16B500FE41CB /* converttopdf_btn~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "converttopdf_btn~iphone.png"; sourceTree = "<group>"; };
+		15AB1A281577539800E4B7B2 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait~ipad.png"; path = "../Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		15AB1A2A1577539900E4B7B2 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait@2x~ipad.png"; path = "../Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		15AB1A2C157753A700E4B7B2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		15D162691574A8DE00937CE8 /* bg_screen1~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_screen1~ipad.png"; sourceTree = "<group>"; };
+		15D1626B1574A8E300937CE8 /* bg_screen1@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_screen1@2x~ipad.png"; sourceTree = "<group>"; };
+		15D1626D1574A8E700937CE8 /* bg_main@~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_main@~ipad.png"; sourceTree = "<group>"; };
+		15D1626F1574A8EA00937CE8 /* bg_main@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_main@2x~ipad.png"; sourceTree = "<group>"; };
+		15D162711574A8F800937CE8 /* bottombar_img@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bottombar_img@2x~ipad.png"; sourceTree = "<group>"; };
+		15D162721574A8F800937CE8 /* bottombar_img~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bottombar_img~ipad.png"; sourceTree = "<group>"; };
+		15D162731574A8F800937CE8 /* capturenewdocument_btn@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "capturenewdocument_btn@2x~ipad.png"; sourceTree = "<group>"; };
+		15D1627D1574A8FB00937CE8 /* capturenewdocument_btn~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "capturenewdocument_btn~ipad.png"; sourceTree = "<group>"; };
+		15D162811574A9A100937CE8 /* topbar_img@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "topbar_img@2x~ipad.png"; sourceTree = "<group>"; };
+		15D162821574A9A100937CE8 /* topbar_img~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "topbar_img~ipad.png"; sourceTree = "<group>"; };
+		15D162831574A9A200937CE8 /* uploadfromgallery_btn@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "uploadfromgallery_btn@2x~ipad.png"; sourceTree = "<group>"; };
+		15D162841574A9A200937CE8 /* uploadfromgallery_btn~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "uploadfromgallery_btn~ipad.png"; sourceTree = "<group>"; };
+		15D163981574FA2A00937CE8 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +105,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15D163991574FA2A00937CE8 /* MobileCoreServices.framework in Frameworks */,
+				15424DE315738FC400C9B086 /* MessageUI.framework in Frameworks */,
 				15424D9A15737CD800C9B086 /* UIKit.framework in Frameworks */,
 				15424D9C15737CD800C9B086 /* Foundation.framework in Frameworks */,
 				15424D9E15737CD800C9B086 /* CoreGraphics.framework in Frameworks */,
@@ -52,6 +119,10 @@
 		15424D8A15737CD800C9B086 = {
 			isa = PBXGroup;
 			children = (
+				1339798115920506004917B0 /* 72x72.png */,
+				1552E5B4157A12B400FE41CB /* 114x114.png */,
+				1552E5B2157A12B100FE41CB /* 57x57.png */,
+				15D163981574FA2A00937CE8 /* MobileCoreServices.framework */,
 				15424D9F15737CD800C9B086 /* BailBond */,
 				15424D9815737CD800C9B086 /* Frameworks */,
 				15424D9615737CD800C9B086 /* Products */,
@@ -61,7 +132,7 @@
 		15424D9615737CD800C9B086 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				15424D9515737CD800C9B086 /* BailBond.app */,
+				15424D9515737CD800C9B086 /* A Better Bail Bond.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,6 +140,7 @@
 		15424D9815737CD800C9B086 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				15424DE215738FC400C9B086 /* MessageUI.framework */,
 				15424D9915737CD800C9B086 /* UIKit.framework */,
 				15424D9B15737CD800C9B086 /* Foundation.framework */,
 				15424D9D15737CD800C9B086 /* CoreGraphics.framework */,
@@ -79,12 +151,17 @@
 		15424D9F15737CD800C9B086 /* BailBond */ = {
 			isa = PBXGroup;
 			children = (
+				15424DB915737CE300C9B086 /* Images */,
 				15424DA815737CD800C9B086 /* AppDelegate.h */,
 				15424DA915737CD800C9B086 /* AppDelegate.m */,
 				15424DAB15737CD800C9B086 /* ViewController.h */,
 				15424DAC15737CD800C9B086 /* ViewController.m */,
 				15424DAE15737CD800C9B086 /* ViewController_iPhone.xib */,
 				15424DB115737CD800C9B086 /* ViewController_iPad.xib */,
+				15424DCC15737D5300C9B086 /* PreviewViewController.h */,
+				15424DCD15737D5300C9B086 /* PreviewViewController.m */,
+				15424DD115737D7400C9B086 /* PreviewViewController_iPhone.xib */,
+				15424DCE15737D5300C9B086 /* PreviewViewController_iPad.xib */,
 				15424DA015737CD800C9B086 /* Supporting Files */,
 			);
 			path = BailBond;
@@ -93,20 +170,67 @@
 		15424DA015737CD800C9B086 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				15424DA115737CD800C9B086 /* BailBond-Info.plist */,
+				15424DA115737CD800C9B086 /* A Better Bail Bond-Info.plist */,
 				15424DA215737CD800C9B086 /* InfoPlist.strings */,
 				15424DA515737CD800C9B086 /* main.m */,
-				15424DA715737CD800C9B086 /* BailBond-Prefix.pch */,
+				15424DA715737CD800C9B086 /* A Better Bail Bond-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		15424DB915737CE300C9B086 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				15D162801574A90C00937CE8 /* iPhone */,
+				15D1627F1574A90400937CE8 /* iPad */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		15D1627F1574A90400937CE8 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				15AB1A2A1577539900E4B7B2 /* Default-Portrait@2x~ipad.png */,
+				15AB1A281577539800E4B7B2 /* Default-Portrait~ipad.png */,
+				15D162691574A8DE00937CE8 /* bg_screen1~ipad.png */,
+				15D1626B1574A8E300937CE8 /* bg_screen1@2x~ipad.png */,
+				15D1626D1574A8E700937CE8 /* bg_main@~ipad.png */,
+				15D1626F1574A8EA00937CE8 /* bg_main@2x~ipad.png */,
+				15D162711574A8F800937CE8 /* bottombar_img@2x~ipad.png */,
+				15D162721574A8F800937CE8 /* bottombar_img~ipad.png */,
+				1552E5B6157A15AE00FE41CB /* convert_btn~ipad.png */,
+				1552E5B7157A15AE00FE41CB /* convert_btn@2x~ipad.png */,
+				15D1627D1574A8FB00937CE8 /* capturenewdocument_btn~ipad.png */,
+				15D162731574A8F800937CE8 /* capturenewdocument_btn@2x~ipad.png */,
+				15D162811574A9A100937CE8 /* topbar_img@2x~ipad.png */,
+				15D162821574A9A100937CE8 /* topbar_img~ipad.png */,
+				15D162831574A9A200937CE8 /* uploadfromgallery_btn@2x~ipad.png */,
+				15D162841574A9A200937CE8 /* uploadfromgallery_btn~ipad.png */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		15D162801574A90C00937CE8 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				1552E5BA157A16B500FE41CB /* converttopdf_btn~iphone.png */,
+				15AB1A2C157753A700E4B7B2 /* Default.png */,
+				15424DBE15737CFE00C9B086 /* bg_main.png */,
+				15424DBF15737CFE00C9B086 /* bg_screen1.png */,
+				15424DC015737CFE00C9B086 /* bottombar_img.png */,
+				15424DC115737CFE00C9B086 /* capturenewdocument_btn.png */,
+				15424DC315737CFE00C9B086 /* topbar_img.png */,
+				15424DC415737CFE00C9B086 /* uploadfromgallery_btn.png */,
+			);
+			name = iPhone;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		15424D9415737CD800C9B086 /* BailBond */ = {
+		15424D9415737CD800C9B086 /* A Better Bail Bond */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 15424DB615737CD800C9B086 /* Build configuration list for PBXNativeTarget "BailBond" */;
+			buildConfigurationList = 15424DB615737CD800C9B086 /* Build configuration list for PBXNativeTarget "A Better Bail Bond" */;
 			buildPhases = (
 				15424D9115737CD800C9B086 /* Sources */,
 				15424D9215737CD800C9B086 /* Frameworks */,
@@ -116,9 +240,9 @@
 			);
 			dependencies = (
 			);
-			name = BailBond;
+			name = "A Better Bail Bond";
 			productName = BailBond;
-			productReference = 15424D9515737CD800C9B086 /* BailBond.app */;
+			productReference = 15424D9515737CD800C9B086 /* A Better Bail Bond.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -129,7 +253,7 @@
 			attributes = {
 				LastUpgradeCheck = 0430;
 			};
-			buildConfigurationList = 15424D8F15737CD800C9B086 /* Build configuration list for PBXProject "BailBond" */;
+			buildConfigurationList = 15424D8F15737CD800C9B086 /* Build configuration list for PBXProject "A Better Bail Bond" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -141,7 +265,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				15424D9415737CD800C9B086 /* BailBond */,
+				15424D9415737CD800C9B086 /* A Better Bail Bond */,
 			);
 		};
 /* End PBXProject section */
@@ -154,6 +278,35 @@
 				15424DA415737CD800C9B086 /* InfoPlist.strings in Resources */,
 				15424DB015737CD800C9B086 /* ViewController_iPhone.xib in Resources */,
 				15424DB315737CD800C9B086 /* ViewController_iPad.xib in Resources */,
+				15424DC515737CFE00C9B086 /* bg_main.png in Resources */,
+				15424DC615737CFE00C9B086 /* bg_screen1.png in Resources */,
+				15424DC715737CFE00C9B086 /* bottombar_img.png in Resources */,
+				15424DC815737CFE00C9B086 /* capturenewdocument_btn.png in Resources */,
+				15424DCA15737CFE00C9B086 /* topbar_img.png in Resources */,
+				15424DCB15737CFE00C9B086 /* uploadfromgallery_btn.png in Resources */,
+				15424DD015737D5300C9B086 /* PreviewViewController_iPad.xib in Resources */,
+				15424DD215737D7400C9B086 /* PreviewViewController_iPhone.xib in Resources */,
+				15D1626A1574A8DE00937CE8 /* bg_screen1~ipad.png in Resources */,
+				15D1626C1574A8E300937CE8 /* bg_screen1@2x~ipad.png in Resources */,
+				15D1626E1574A8E700937CE8 /* bg_main@~ipad.png in Resources */,
+				15D162701574A8EA00937CE8 /* bg_main@2x~ipad.png in Resources */,
+				15D162771574A8F800937CE8 /* bottombar_img@2x~ipad.png in Resources */,
+				15D162781574A8F800937CE8 /* bottombar_img~ipad.png in Resources */,
+				15D162791574A8F800937CE8 /* capturenewdocument_btn@2x~ipad.png in Resources */,
+				15D1627E1574A8FB00937CE8 /* capturenewdocument_btn~ipad.png in Resources */,
+				15D162851574A9A200937CE8 /* topbar_img@2x~ipad.png in Resources */,
+				15D162861574A9A200937CE8 /* topbar_img~ipad.png in Resources */,
+				15D162871574A9A200937CE8 /* uploadfromgallery_btn@2x~ipad.png in Resources */,
+				15D162881574A9A200937CE8 /* uploadfromgallery_btn~ipad.png in Resources */,
+				15AB1A291577539800E4B7B2 /* Default-Portrait~ipad.png in Resources */,
+				15AB1A2B1577539900E4B7B2 /* Default-Portrait@2x~ipad.png in Resources */,
+				15AB1A2D157753A700E4B7B2 /* Default.png in Resources */,
+				1552E5B3157A12B100FE41CB /* 57x57.png in Resources */,
+				1552E5B5157A12B400FE41CB /* 114x114.png in Resources */,
+				1552E5B8157A15AE00FE41CB /* convert_btn~ipad.png in Resources */,
+				1552E5B9157A15AE00FE41CB /* convert_btn@2x~ipad.png in Resources */,
+				1552E5BB157A16B500FE41CB /* converttopdf_btn~iphone.png in Resources */,
+				1339798215920506004917B0 /* 72x72.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +320,7 @@
 				15424DA615737CD800C9B086 /* main.m in Sources */,
 				15424DAA15737CD800C9B086 /* AppDelegate.m in Sources */,
 				15424DAD15737CD800C9B086 /* ViewController.m in Sources */,
+				15424DCF15737D5300C9B086 /* PreviewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,7 +359,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Cassandra Segoviano";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -220,6 +375,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2944CDBF-917C-4501-A4F5-9BC1ED4409E3";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -230,7 +386,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Cassandra Segoviano";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -239,6 +396,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2944CDBF-917C-4501-A4F5-9BC1ED4409E3";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -248,10 +406,14 @@
 		15424DB715737CD800C9B086 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Cassandra Segoviano";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BailBond/BailBond-Prefix.pch";
-				INFOPLIST_FILE = "BailBond/BailBond-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "BailBond/A Better Bail Bond-Prefix.pch";
+				INFOPLIST_FILE = "BailBond/A Better Bail Bond-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "A Better Bail Bond";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2944CDBF-917C-4501-A4F5-9BC1ED4409E3";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -259,10 +421,14 @@
 		15424DB815737CD800C9B086 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Cassandra Segoviano";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BailBond/BailBond-Prefix.pch";
-				INFOPLIST_FILE = "BailBond/BailBond-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "BailBond/A Better Bail Bond-Prefix.pch";
+				INFOPLIST_FILE = "BailBond/A Better Bail Bond-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "A Better Bail Bond";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2944CDBF-917C-4501-A4F5-9BC1ED4409E3";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -270,7 +436,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		15424D8F15737CD800C9B086 /* Build configuration list for PBXProject "BailBond" */ = {
+		15424D8F15737CD800C9B086 /* Build configuration list for PBXProject "A Better Bail Bond" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				15424DB415737CD800C9B086 /* Debug */,
@@ -279,13 +445,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		15424DB615737CD800C9B086 /* Build configuration list for PBXNativeTarget "BailBond" */ = {
+		15424DB615737CD800C9B086 /* Build configuration list for PBXNativeTarget "A Better Bail Bond" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				15424DB715737CD800C9B086 /* Debug */,
 				15424DB815737CD800C9B086 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
